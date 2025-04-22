@@ -5,7 +5,8 @@ for i in range (len(x)):
         floor = floor + 1
     else:
         floor = floor - 1
+        # adding stuff for the second part of the task
         if floor == (-1):
-            print (i+1)
+            print (i+1) # +1 because AOC doesn't start counting with 0, sadly.
 
 print (floor)
