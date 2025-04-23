@@ -27,6 +27,7 @@ for i in range (len(listOfBoxes)):
     for j in range (3):
         listOfBoxes[i][j]= int(listOfBoxes[i][j])
 length_ribbon = 0
+
 #for i in range (1):
 for i in range (len(listOfBoxes)):
     bow = listOfBoxes[i][0] * listOfBoxes[i][1] * listOfBoxes[i][2]
